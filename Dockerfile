@@ -5,7 +5,7 @@
 # Pin a version tag (see https://codeberg.org/readeck/readeck/releases) for
 # reproducible builds; with :latest, Railway's layer cache may serve a stale
 # base on rebuild. Bump the tag in a commit to upgrade deliberately.
-FROM codeberg.org/readeck/readeck:latest
+FROM codeberg.org/readeck/readeck:0.23.5
 
 ENV READECK_SERVER_HOST=0.0.0.0 \
     READECK_SERVER_PORT=8000
